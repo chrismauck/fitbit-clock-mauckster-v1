@@ -1,0 +1,82 @@
+.background {
+  viewport-fill: #111111;
+  fill: #999999;
+}
+.mauckster {
+  fill: #999999;
+  opacity: 0.3;
+  x: 20%;
+  y: 20%;
+}
+/* #battery-holder {
+  pointer-events: visible;
+} */
+.battery {
+  fill: #f83c40;
+  opacity: 1;
+}
+.battery-label {
+  font-size: 22;
+  font-family: System-Regular;
+  text-length: 40;
+  text-anchor: start;
+  fill: #eeeeee;
+}
+#stepDiv {
+  pointer-events: visible;
+}
+.steps {
+  fill: #2490dd;
+  opacity: 1;
+}
+#mySteps {
+  font-size: 36;
+  font-family: System-Regular;
+  text-length: 40;
+  text-anchor: start;
+  fill: #ffffff;
+}
+.cals {
+  fill: #FFCC33;
+  opacity: 1;
+}
+.heart {
+  fill: #f83c40;
+  opacity: 1;
+}
+#myHeart {
+  font-size: 36;
+  font-family: System-Regular;
+  text-length: 40;
+  text-anchor: start;
+  fill: #ffffff;
+}
+#myCals {
+  font-size: 36;
+  font-family: System-Regular;
+  text-length: 40;
+  text-anchor: start;
+  fill: #ffffff;
+}
+#myTime {
+  font-size: 70;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 21;
+  y: 93%;
+  fill: white;
+}
+#myDate {
+  font-size: 24;
+  font-family: System-Regular;
+  text-length: 16;
+  text-anchor: end;
+  x: 94%;
+  y: 93%;
+  fill: #eeeeee;
+}
+/* #digitalFace {
+  display: none;
+  pointer-events: visible;
+} */

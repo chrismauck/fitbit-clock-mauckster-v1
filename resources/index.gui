@@ -1,0 +1,27 @@
+<svg class="background">
+  <g id="digitalFace">
+    <svg>
+      <image width="60%" height="60%" href="logo.png" class="mauckster" />
+    </svg>
+    <svg x="15" y="15" id="battery-holder">
+      <image x="0" y="0" width="29" height="29" href="battery.png" class="battery"/>
+      <text id="battery-label" class="battery-label" x="33" y="22">####</text>
+    </svg>
+    <svg id="stepDiv" x="46%" y="15">
+      <g>
+        <image width="31" height="31" x="0" y="0" href="sneaker.png" class="steps" />
+        <text id="mySteps" x="40" y="26" />
+      </g>
+    </svg>
+    <svg id="heartDiv" x="46%" y="101">
+      <image width="31" height="31" x="0" y="0" href="stat_hr_solid_32px.png" class="heart" />
+      <text id="myHeart" x="40" y="26" />
+    </svg>
+    <svg id="calDiv" x="46%" y="58">
+      <image width="31" height="31" x="0" y="0" href="stat_cals_solid_32px.png" class="cals" />
+      <text id="myCals" x="40" y="26" />
+    </svg>
+    <text id="myTime" />
+    <text id="myDate" />
+  </g>
+</svg>
